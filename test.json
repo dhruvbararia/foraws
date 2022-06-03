@@ -13,10 +13,10 @@
             "Configuration": {
                 "App": "index.php",
                 "AppType": "Web",
-                "DevicePoolArn": "arn:aws:devicefarm:us-west-2:285080307748:testgrid-project:987680e4-1696-4ea9-8e13-33861e252deb",
+                "DevicePoolArn": "arn:aws:devicefarm:us-west-2:285080307748:testgrid-project:836424ca-e141-4acf-be85-18be908c64ef",
                 "FuzzEventCount": "6000",
                 "FuzzEventThrottle": "50",
-                "ProjectId": "987680e4-1696-4ea9-8e13-33861e252deb",
+                "ProjectId": "836424ca-e141-4acf-be85-18be908c64ef",
                 "TestType": "UIAUTOMATION"
             },
             "OutputArtifacts": [],
@@ -25,7 +25,7 @@
                     "Name": "SourceArtifact"
                 }
             ],
-            "Region": "us-east-1"
+            "Region": "us-west-2"
         }
     ]
 }
