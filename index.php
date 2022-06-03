@@ -9,7 +9,7 @@
     <nav class="navbar navbar-default">
     </nav>
     <div class="col-md-12 well">
-        <h3 class="text-primary text-center">Display Data</h3>
+        <h3 class="text-primary text-center">Display Data in php</h3>
         <hr style="border-top:1px dotted #ccc;"/>
         <div class="d-flex">
         <div class="col-md-6">
