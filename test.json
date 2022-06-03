@@ -1,0 +1,31 @@
+{
+    "Name": "Test",
+    "Actions": [
+        {
+            "Name": "TestDeviceFarm",
+            "ActionTypeId": {
+                "category": "Test",
+                "owner": "AWS",
+                "provider": "DeviceFarm",
+                "version": "1"
+            },
+            "RunOrder": 1,
+            "Configuration": {
+                "App": "index.php",
+                "AppType": "Web",
+                "DevicePoolArn": "arn:aws:devicefarm:us-west-2:285080307748:testgrid-project:987680e4-1696-4ea9-8e13-33861e252deb",
+                "FuzzEventCount": "6000",
+                "FuzzEventThrottle": "50",
+                "ProjectId": "987680e4-1696-4ea9-8e13-33861e252deb",
+                "TestType": "UIAUTOMATION"
+            },
+            "OutputArtifacts": [],
+            "InputArtifacts": [
+                {
+                    "Name": "SourceArtifact"
+                }
+            ],
+            "Region": "us-east-1"
+        }
+    ]
+}
